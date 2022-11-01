@@ -1,2 +1,2 @@
-# ETicaretAPI
-Gençay Yıldız Youtube kanalı Onion Architecture tabanlı eticaret proje eğitimi.
+ï»¿# ETicaretAPI
+GenÃ§ay YÄ±ldÄ±z Youtube kanalÄ± Onion Architecture tabanlÄ± eticaret proje eÄŸitimi.
