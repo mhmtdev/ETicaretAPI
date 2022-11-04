@@ -17,9 +17,9 @@ namespace ETicaretAPI.API.Controllers
             _productReadRepository = productReadRepository;
         }
         [HttpGet]
-        public async void Get()
+        public async Task Get()
         {
-            _productWriteRepository.AddRangeAsync(new()
+            await _productWriteRepository.AddRangeAsync(new()
             {
                 new(){ Id = Guid.NewGuid(), Name="Product 1", Price=100, CreatedDate=DateTime.UtcNow, Stock=10 },
                 new(){ Id = Guid.NewGuid(), Name="Product 2", Price=200, CreatedDate=DateTime.UtcNow, Stock=20 },
